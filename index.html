@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+  </head>
+  <body>
+    <h1>
+      This is a static template, there is no bundler or bundling involved!
+    </h1>
+  </body>
+
+  <script>
+          if (window.screen.width > 991) {
+          document.write(
+            '<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.0/gsap.min.js"><\/script>' +
+            '<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"><\/script>' +
+          )
+        }
+
+        $(
+          function() {
+            const bgv = $('video');
+
+            if (screen.width>992){
+              $('source', bgv).each(
+                function() {
+                  var datasrc = jQuery(this).attr('data-src');
+           			  var source = jQuery(this).attr('src', datasrc);
+                }
+
+              );
+
+
+            }
+          }
+        )
+
+        $('video').load();
+
+        if (screen.width>992){
+    $( ".append" ).append( '<video autoplay loop muted playsinline class="video_hero" id="myVideo"> <source src="https://bambuser.com/webflow/Bambuser_One-to-One_01.mp4" type="video/mp4" data-src="https://bambuser.com/webflow/bambuser_tedbaker.mp4"> </video>' );
+    };
+  </script>
+</html>

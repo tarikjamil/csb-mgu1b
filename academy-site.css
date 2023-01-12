@@ -1,0 +1,102 @@
+/**login **/
+
+.memberstack-profile .ms-portal {
+  max-width: 650em;
+  min-height: 700em;
+}
+
+.ms-profile-field {
+  font-size: 16em !important;
+  padding: 0em !important;
+  height: calc(60em / 16) !important;
+  min-height: 0em !important;
+  margin-bottom: calc(10em / 16) !important;
+}
+
+.ms-compressed-label {
+  font-size: 16em !important;
+  position: static !important;
+}
+
+.ms-portal-button {
+  font-size: 16em !important;
+}
+.ms-portal-h1 {
+  font-size: 16em !important;
+}
+
+.ms-portal-h2 {
+  font-size: 16em !important;
+}
+
+.ms-profile-btn {
+  font-size: 16em !important;
+}
+
+.ms-portal-navlink {
+  font-size: 14em !important;
+}
+
+.ms-portal-plan-name {
+  font-size: 16em !important;
+}
+
+.ms-portal-sub-cancel {
+  font-size: 16em !important;
+}
+
+.ms-portal-plan-price {
+  font-size: 0em !important;
+}
+.ms-portal-form label {
+  height: auto !important;
+  font-size: 14em !important;
+  left: 0em;
+  margin-bottom: calc(10em / 14);
+}
+
+/** signup **/
+.signupContainer {
+  max-width: 400em !important;
+}
+
+.ms-signup-label {
+  font-size: 14em !important;
+  position: static !important;
+}
+
+.ms-signup-h1 {
+  font-size: 20em !important;
+}
+
+.ms-signup-button {
+  font-size: 16em !important;
+}
+
+.ms-login-or-signup {
+  font-size: 16em !important;
+}
+
+.ms-signup-reset {
+  font-size: 16em !important;
+}
+
+.ms-reset-container {
+  font-size: 16em !important;
+}
+
+.ms-checkout-plan-name {
+  font-size: 16em !important;
+}
+
+.ms-checkout-header-text {
+  font-size: 16em !important;
+}
+
+.ms-checkout-price {
+  font-size: 16em !important;
+}
+
+.ms-button-override {
+  font-size: 16em !important;
+}

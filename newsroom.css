@@ -1,0 +1,49 @@
+.phone_parent {
+  justify-self: left;
+  align-self: center;
+}
+
+.article--2column-phone-img {
+  justify-self: left;
+  align-self: center;
+}
+
+.richtext_newsroom {
+  justify-self: left;
+  align-self: center;
+}
+
+.richtext_newsroom div {
+  justify-self: left;
+  align-self: center;
+}
+
+.article--arrow-grid div {
+  justify-self: left;
+  align-self: center;
+}
+
+.article--arrow--16.is--highlight {
+  justify-self: left;
+  align-self: start !important;
+}
+
+.article--aligntop {
+  justify-self: left;
+  align-self: start !important;
+}
+
+.is--last {
+  order: -9999;
+}
+
+.article--1column-div {
+  justify-self: center !important;
+  align-self: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .is--last {
+    order: 9999;
+  }
+}

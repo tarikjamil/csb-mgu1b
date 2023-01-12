@@ -1,0 +1,25 @@
+#onetrust-consent-sdk {
+  background-color: black;
+  padding-right: 60em;
+  padding-left: 60em;
+  padding-bottom: 0em;
+  height: 0em !important;
+}
+
+#ot-sdk-btn-floating.ot-floating-button {
+  position: relative !important;
+  top: -70em;
+  left: 0em !important;
+  background-color: transparent !important;
+}
+
+#ot-sdk-btn-floating .ot-floating-button__front {
+  background-color: transparent !important;
+}
+
+@media screen and (max-width: 991px) {
+  #onetrust-consent-sdk {
+    padding-right: 10em;
+    padding-left: 10em;
+  }
+}

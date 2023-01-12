@@ -1,0 +1,19 @@
+.hs-input {
+  background-color: transparent;
+  border-width: 0px;
+  border-bottom-width: 1px;
+  border-radius: 0px;
+  padding-left: 0px;
+}
+
+.hs-button {
+  background-color: transparent !important;
+  color: #6b00de !important;
+  border-color: #6b00de;
+}
+
+.hs-button:hover {
+  background-color: #6b00de !important;
+  color: white !important;
+  border-color: #6b00de;
+}

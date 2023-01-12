@@ -1,0 +1,64 @@
+.hs-input {
+  font-size: 16em !important;
+  font-weight: 400 !important;
+  border-top-width: 0px !important;
+  border-left-width: 0px !important;
+  border-right-width: 0px !important;
+  border-bottom-width: 1px !important;
+  border-radius: 0px !important;
+  background-color: transparent;
+  color: white !important;
+  border-color: #747474;
+  padding-left: 0px !important;
+}
+
+.hs-input::placeholder {
+  color: white;
+}
+
+.hs-form label {
+  opacity: 100%;
+  position: absolute;
+}
+
+.hs-form p {
+  color: #000000;
+}
+
+.hs-form a {
+  color: white;
+}
+
+.hs-richtext p {
+  margin-bottom: 0px !important;
+}
+
+.hs-richtext a {
+  color: white !important;
+}
+
+.hs-error-msg {
+  opacity: 100% !important;
+  position: static !important;
+}
+
+.hs-button.primary.large {
+  font-size: 14em;
+  background-color: transparent !important;
+  border-color: white !important;
+  border-width: 0px;
+  color: white !important;
+  margin-top: calc(52em / 14);
+}
+.section_footer {
+  background-color: black;
+}
+
+li::marker {
+  font-size: 16px !important;
+  color: transparent !important;
+}
+
+.herosection {
+  overflow-y: hidden;
+}
